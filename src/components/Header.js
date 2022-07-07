@@ -1,11 +1,10 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <header>
       <div className="container">
-        <h2>{props.text}</h2>
+          <h2>Feedback UI</h2>
       </div>
     </header>
   );
